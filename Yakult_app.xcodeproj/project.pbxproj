@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F14934D2C2BFA4B00206C30 /* Yakult_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14934C2C2BFA4B00206C30 /* Yakult_appApp.swift */; };
+		4F14934F2C2BFA4B00206C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14934E2C2BFA4B00206C30 /* ContentView.swift */; };
+		4F1493512C2BFA4E00206C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1493502C2BFA4E00206C30 /* Assets.xcassets */; };
+		4F1493542C2BFA4E00206C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1493532C2BFA4E00206C30 /* Preview Assets.xcassets */; };
+		4F14935E2C2BFA4F00206C30 /* Yakult_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14935D2C2BFA4F00206C30 /* Yakult_appTests.swift */; };
+		4F1493682C2BFA4F00206C30 /* Yakult_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1493672C2BFA4F00206C30 /* Yakult_appUITests.swift */; };
+		4F14936A2C2BFA4F00206C30 /* Yakult_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1493692C2BFA4F00206C30 /* Yakult_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F14935A2C2BFA4F00206C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1493412C2BFA4B00206C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1493482C2BFA4B00206C30;
+			remoteInfo = Yakult_app;
+		};
+		4F1493642C2BFA4F00206C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1493412C2BFA4B00206C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1493482C2BFA4B00206C30;
+			remoteInfo = Yakult_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1493492C2BFA4B00206C30 /* Yakult_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yakult_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F14934C2C2BFA4B00206C30 /* Yakult_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yakult_appApp.swift; sourceTree = "<group>"; };
+		4F14934E2C2BFA4B00206C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F1493502C2BFA4E00206C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1493532C2BFA4E00206C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F1493592C2BFA4F00206C30 /* Yakult_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yakult_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F14935D2C2BFA4F00206C30 /* Yakult_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yakult_appTests.swift; sourceTree = "<group>"; };
+		4F1493632C2BFA4F00206C30 /* Yakult_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yakult_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1493672C2BFA4F00206C30 /* Yakult_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yakult_appUITests.swift; sourceTree = "<group>"; };
+		4F1493692C2BFA4F00206C30 /* Yakult_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yakult_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1493462C2BFA4B00206C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1493562C2BFA4F00206C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1493602C2BFA4F00206C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1493402C2BFA4B00206C30 = {
+			isa = PBXGroup;
+			children = (
+				4F14934B2C2BFA4B00206C30 /* Yakult_app */,
+				4F14935C2C2BFA4F00206C30 /* Yakult_appTests */,
+				4F1493662C2BFA4F00206C30 /* Yakult_appUITests */,
+				4F14934A2C2BFA4B00206C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F14934A2C2BFA4B00206C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1493492C2BFA4B00206C30 /* Yakult_app.app */,
+				4F1493592C2BFA4F00206C30 /* Yakult_appTests.xctest */,
+				4F1493632C2BFA4F00206C30 /* Yakult_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F14934B2C2BFA4B00206C30 /* Yakult_app */ = {
+			isa = PBXGroup;
+			children = (
+				4F14934C2C2BFA4B00206C30 /* Yakult_appApp.swift */,
+				4F14934E2C2BFA4B00206C30 /* ContentView.swift */,
+				4F1493502C2BFA4E00206C30 /* Assets.xcassets */,
+				4F1493522C2BFA4E00206C30 /* Preview Content */,
+			);
+			path = Yakult_app;
+			sourceTree = "<group>";
+		};
+		4F1493522C2BFA4E00206C30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F1493532C2BFA4E00206C30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F14935C2C2BFA4F00206C30 /* Yakult_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F14935D2C2BFA4F00206C30 /* Yakult_appTests.swift */,
+			);
+			path = Yakult_appTests;
+			sourceTree = "<group>";
+		};
+		4F1493662C2BFA4F00206C30 /* Yakult_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1493672C2BFA4F00206C30 /* Yakult_appUITests.swift */,
+				4F1493692C2BFA4F00206C30 /* Yakult_appUITestsLaunchTests.swift */,
+			);
+			path = Yakult_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F1493482C2BFA4B00206C30 /* Yakult_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F14936D2C2BFA4F00206C30 /* Build configuration list for PBXNativeTarget "Yakult_app" */;
+			buildPhases = (
+				4F1493452C2BFA4B00206C30 /* Sources */,
+				4F1493462C2BFA4B00206C30 /* Frameworks */,
+				4F1493472C2BFA4B00206C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yakult_app;
+			productName = Yakult_app;
+			productReference = 4F1493492C2BFA4B00206C30 /* Yakult_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1493582C2BFA4F00206C30 /* Yakult_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1493702C2BFA4F00206C30 /* Build configuration list for PBXNativeTarget "Yakult_appTests" */;
+			buildPhases = (
+				4F1493552C2BFA4F00206C30 /* Sources */,
+				4F1493562C2BFA4F00206C30 /* Frameworks */,
+				4F1493572C2BFA4F00206C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F14935B2C2BFA4F00206C30 /* PBXTargetDependency */,
+			);
+			name = Yakult_appTests;
+			productName = Yakult_appTests;
+			productReference = 4F1493592C2BFA4F00206C30 /* Yakult_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F1493622C2BFA4F00206C30 /* Yakult_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1493732C2BFA4F00206C30 /* Build configuration list for PBXNativeTarget "Yakult_appUITests" */;
+			buildPhases = (
+				4F14935F2C2BFA4F00206C30 /* Sources */,
+				4F1493602C2BFA4F00206C30 /* Frameworks */,
+				4F1493612C2BFA4F00206C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1493652C2BFA4F00206C30 /* PBXTargetDependency */,
+			);
+			name = Yakult_appUITests;
+			productName = Yakult_appUITests;
+			productReference = 4F1493632C2BFA4F00206C30 /* Yakult_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1493412C2BFA4B00206C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4F1493482C2BFA4B00206C30 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4F1493582C2BFA4F00206C30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4F1493482C2BFA4B00206C30;
+					};
+					4F1493622C2BFA4F00206C30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4F1493482C2BFA4B00206C30;
+					};
+				};
+			};
+			buildConfigurationList = 4F1493442C2BFA4B00206C30 /* Build configuration list for PBXProject "Yakult_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1493402C2BFA4B00206C30;
+			productRefGroup = 4F14934A2C2BFA4B00206C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1493482C2BFA4B00206C30 /* Yakult_app */,
+				4F1493582C2BFA4F00206C30 /* Yakult_appTests */,
+				4F1493622C2BFA4F00206C30 /* Yakult_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1493472C2BFA4B00206C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1493542C2BFA4E00206C30 /* Preview Assets.xcassets in Resources */,
+				4F1493512C2BFA4E00206C30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1493572C2BFA4F00206C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1493612C2BFA4F00206C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1493452C2BFA4B00206C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14934F2C2BFA4B00206C30 /* ContentView.swift in Sources */,
+				4F14934D2C2BFA4B00206C30 /* Yakult_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1493552C2BFA4F00206C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14935E2C2BFA4F00206C30 /* Yakult_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14935F2C2BFA4F00206C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14936A2C2BFA4F00206C30 /* Yakult_appUITestsLaunchTests.swift in Sources */,
+				4F1493682C2BFA4F00206C30 /* Yakult_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F14935B2C2BFA4F00206C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1493482C2BFA4B00206C30 /* Yakult_app */;
+			targetProxy = 4F14935A2C2BFA4F00206C30 /* PBXContainerItemProxy */;
+		};
+		4F1493652C2BFA4F00206C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1493482C2BFA4B00206C30 /* Yakult_app */;
+			targetProxy = 4F1493642C2BFA4F00206C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F14936B2C2BFA4F00206C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F14936C2C2BFA4F00206C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F14936E2C2BFA4F00206C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yakult_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaku.Yakult-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F14936F2C2BFA4F00206C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yakult_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaku.Yakult-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F1493712C2BFA4F00206C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaku.Yakult-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yakult_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yakult_app";
+			};
+			name = Debug;
+		};
+		4F1493722C2BFA4F00206C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaku.Yakult-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yakult_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yakult_app";
+			};
+			name = Release;
+		};
+		4F1493742C2BFA4F00206C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaku.Yakult-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yakult_app;
+			};
+			name = Debug;
+		};
+		4F1493752C2BFA4F00206C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaku.Yakult-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yakult_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1493442C2BFA4B00206C30 /* Build configuration list for PBXProject "Yakult_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F14936B2C2BFA4F00206C30 /* Debug */,
+				4F14936C2C2BFA4F00206C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F14936D2C2BFA4F00206C30 /* Build configuration list for PBXNativeTarget "Yakult_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F14936E2C2BFA4F00206C30 /* Debug */,
+				4F14936F2C2BFA4F00206C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1493702C2BFA4F00206C30 /* Build configuration list for PBXNativeTarget "Yakult_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1493712C2BFA4F00206C30 /* Debug */,
+				4F1493722C2BFA4F00206C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1493732C2BFA4F00206C30 /* Build configuration list for PBXNativeTarget "Yakult_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1493742C2BFA4F00206C30 /* Debug */,
+				4F1493752C2BFA4F00206C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F1493412C2BFA4B00206C30 /* Project object */;
+}
